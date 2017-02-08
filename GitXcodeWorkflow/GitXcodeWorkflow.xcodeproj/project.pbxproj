@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DDF5C6451E4B9D49004732F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6441E4B9D49004732F1 /* AppDelegate.swift */; };
-		DDF5C6471E4B9D49004732F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6461E4B9D49004732F1 /* ViewController.swift */; };
-		DDF5C64A1E4B9D49004732F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF5C6481E4B9D49004732F1 /* Main.storyboard */; };
-		DDF5C64C1E4B9D49004732F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF5C64B1E4B9D49004732F1 /* Assets.xcassets */; };
-		DDF5C64F1E4B9D49004732F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF5C64D1E4B9D49004732F1 /* LaunchScreen.storyboard */; };
+		93C3258F1E4BA0300043FAD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3258E1E4BA0300043FAD2 /* AppDelegate.swift */; };
+		93C325911E4BA0300043FAD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C325901E4BA0300043FAD2 /* ViewController.swift */; };
+		93C325941E4BA0300043FAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C325921E4BA0300043FAD2 /* Main.storyboard */; };
+		93C325971E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93C325951E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodeld */; };
+		93C325991E4BA0300043FAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C325981E4BA0300043FAD2 /* Assets.xcassets */; };
+		93C3259C1E4BA0300043FAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C3259A1E4BA0300043FAD2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DDF5C6411E4B9D49004732F1 /* GitXcodeWorkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitXcodeWorkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDF5C6441E4B9D49004732F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDF5C6461E4B9D49004732F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDF5C6491E4B9D49004732F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DDF5C64B1E4B9D49004732F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDF5C64E1E4B9D49004732F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DDF5C6501E4B9D49004732F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C3258B1E4BA0300043FAD2 /* GitXCodeWorkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitXCodeWorkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C3258E1E4BA0300043FAD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93C325901E4BA0300043FAD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93C325931E4BA0300043FAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93C325961E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitXCodeWorkflow.xcdatamodel; sourceTree = "<group>"; };
+		93C325981E4BA0300043FAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C3259B1E4BA0300043FAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93C3259D1E4BA0300043FAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DDF5C63E1E4B9D49004732F1 /* Frameworks */ = {
+		93C325881E4BA0300043FAD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DDF5C6381E4B9D49004732F1 = {
+		93C325821E4BA0300043FAD2 = {
 			isa = PBXGroup;
 			children = (
-				DDF5C6431E4B9D49004732F1 /* GitXcodeWorkflow */,
-				DDF5C6421E4B9D49004732F1 /* Products */,
+				93C3258D1E4BA0300043FAD2 /* GitXCodeWorkflow */,
+				93C3258C1E4BA0300043FAD2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DDF5C6421E4B9D49004732F1 /* Products */ = {
+		93C3258C1E4BA0300043FAD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDF5C6411E4B9D49004732F1 /* GitXcodeWorkflow.app */,
+				93C3258B1E4BA0300043FAD2 /* GitXCodeWorkflow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDF5C6431E4B9D49004732F1 /* GitXcodeWorkflow */ = {
+		93C3258D1E4BA0300043FAD2 /* GitXCodeWorkflow */ = {
 			isa = PBXGroup;
 			children = (
-				DDF5C6441E4B9D49004732F1 /* AppDelegate.swift */,
-				DDF5C6461E4B9D49004732F1 /* ViewController.swift */,
-				DDF5C6481E4B9D49004732F1 /* Main.storyboard */,
-				DDF5C64B1E4B9D49004732F1 /* Assets.xcassets */,
-				DDF5C64D1E4B9D49004732F1 /* LaunchScreen.storyboard */,
-				DDF5C6501E4B9D49004732F1 /* Info.plist */,
+				93C3258E1E4BA0300043FAD2 /* AppDelegate.swift */,
+				93C325901E4BA0300043FAD2 /* ViewController.swift */,
+				93C325921E4BA0300043FAD2 /* Main.storyboard */,
+				93C325981E4BA0300043FAD2 /* Assets.xcassets */,
+				93C3259A1E4BA0300043FAD2 /* LaunchScreen.storyboard */,
+				93C3259D1E4BA0300043FAD2 /* Info.plist */,
+				93C325951E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodeld */,
 			);
-			path = GitXcodeWorkflow;
+			path = GitXCodeWorkflow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDF5C6401E4B9D49004732F1 /* GitXcodeWorkflow */ = {
+		93C3258A1E4BA0300043FAD2 /* GitXCodeWorkflow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDF5C6531E4B9D49004732F1 /* Build configuration list for PBXNativeTarget "GitXcodeWorkflow" */;
+			buildConfigurationList = 93C325A01E4BA0300043FAD2 /* Build configuration list for PBXNativeTarget "GitXCodeWorkflow" */;
 			buildPhases = (
-				DDF5C63D1E4B9D49004732F1 /* Sources */,
-				DDF5C63E1E4B9D49004732F1 /* Frameworks */,
-				DDF5C63F1E4B9D49004732F1 /* Resources */,
+				93C325871E4BA0300043FAD2 /* Sources */,
+				93C325881E4BA0300043FAD2 /* Frameworks */,
+				93C325891E4BA0300043FAD2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GitXcodeWorkflow;
-			productName = GitXcodeWorkflow;
-			productReference = DDF5C6411E4B9D49004732F1 /* GitXcodeWorkflow.app */;
+			name = GitXCodeWorkflow;
+			productName = GitXCodeWorkflow;
+			productReference = 93C3258B1E4BA0300043FAD2 /* GitXCodeWorkflow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DDF5C6391E4B9D49004732F1 /* Project object */ = {
+		93C325831E4BA0300043FAD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Moore, Shawn";
+				ORGANIZATIONNAME = "Aaron Whaley";
 				TargetAttributes = {
-					DDF5C6401E4B9D49004732F1 = {
+					93C3258A1E4BA0300043FAD2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DDF5C63C1E4B9D49004732F1 /* Build configuration list for PBXProject "GitXcodeWorkflow" */;
+			buildConfigurationList = 93C325861E4BA0300043FAD2 /* Build configuration list for PBXProject "GitXCodeWorkflow" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = DDF5C6381E4B9D49004732F1;
-			productRefGroup = DDF5C6421E4B9D49004732F1 /* Products */;
+			mainGroup = 93C325821E4BA0300043FAD2;
+			productRefGroup = 93C3258C1E4BA0300043FAD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDF5C6401E4B9D49004732F1 /* GitXcodeWorkflow */,
+				93C3258A1E4BA0300043FAD2 /* GitXCodeWorkflow */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DDF5C63F1E4B9D49004732F1 /* Resources */ = {
+		93C325891E4BA0300043FAD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF5C64F1E4B9D49004732F1 /* LaunchScreen.storyboard in Resources */,
-				DDF5C64C1E4B9D49004732F1 /* Assets.xcassets in Resources */,
-				DDF5C64A1E4B9D49004732F1 /* Main.storyboard in Resources */,
+				93C3259C1E4BA0300043FAD2 /* LaunchScreen.storyboard in Resources */,
+				93C325991E4BA0300043FAD2 /* Assets.xcassets in Resources */,
+				93C325941E4BA0300043FAD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DDF5C63D1E4B9D49004732F1 /* Sources */ = {
+		93C325871E4BA0300043FAD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF5C6471E4B9D49004732F1 /* ViewController.swift in Sources */,
-				DDF5C6451E4B9D49004732F1 /* AppDelegate.swift in Sources */,
+				93C325911E4BA0300043FAD2 /* ViewController.swift in Sources */,
+				93C3258F1E4BA0300043FAD2 /* AppDelegate.swift in Sources */,
+				93C325971E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DDF5C6481E4B9D49004732F1 /* Main.storyboard */ = {
+		93C325921E4BA0300043FAD2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DDF5C6491E4B9D49004732F1 /* Base */,
+				93C325931E4BA0300043FAD2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DDF5C64D1E4B9D49004732F1 /* LaunchScreen.storyboard */ = {
+		93C3259A1E4BA0300043FAD2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DDF5C64E1E4B9D49004732F1 /* Base */,
+				93C3259B1E4BA0300043FAD2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DDF5C6511E4B9D49004732F1 /* Debug */ = {
+		93C3259E1E4BA0300043FAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		DDF5C6521E4B9D49004732F1 /* Release */ = {
+		93C3259F1E4BA0300043FAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,25 +260,25 @@
 			};
 			name = Release;
 		};
-		DDF5C6541E4B9D49004732F1 /* Debug */ = {
+		93C325A11E4BA0300043FAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GitXcodeWorkflow/Info.plist;
+				INFOPLIST_FILE = GitXCodeWorkflow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.GitXcodeWorkflow;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.GitXCodeWorkflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		DDF5C6551E4B9D49004732F1 /* Release */ = {
+		93C325A21E4BA0300043FAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GitXcodeWorkflow/Info.plist;
+				INFOPLIST_FILE = GitXCodeWorkflow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.GitXcodeWorkflow;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.cs.GitXCodeWorkflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,24 +287,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDF5C63C1E4B9D49004732F1 /* Build configuration list for PBXProject "GitXcodeWorkflow" */ = {
+		93C325861E4BA0300043FAD2 /* Build configuration list for PBXProject "GitXCodeWorkflow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDF5C6511E4B9D49004732F1 /* Debug */,
-				DDF5C6521E4B9D49004732F1 /* Release */,
+				93C3259E1E4BA0300043FAD2 /* Debug */,
+				93C3259F1E4BA0300043FAD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDF5C6531E4B9D49004732F1 /* Build configuration list for PBXNativeTarget "GitXcodeWorkflow" */ = {
+		93C325A01E4BA0300043FAD2 /* Build configuration list for PBXNativeTarget "GitXCodeWorkflow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDF5C6541E4B9D49004732F1 /* Debug */,
-				DDF5C6551E4B9D49004732F1 /* Release */,
+				93C325A11E4BA0300043FAD2 /* Debug */,
+				93C325A21E4BA0300043FAD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93C325951E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93C325961E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodel */,
+			);
+			currentVersion = 93C325961E4BA0300043FAD2 /* GitXCodeWorkflow.xcdatamodel */;
+			path = GitXCodeWorkflow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = DDF5C6391E4B9D49004732F1 /* Project object */;
+	rootObject = 93C325831E4BA0300043FAD2 /* Project object */;
 }

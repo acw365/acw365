@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  GitXcodeWorkflow
+//  GitXCodeWorkflow
 //
-//  Created by Moore, Shawn on 2/8/17.
-//  Copyright © 2017 Moore, Shawn. All rights reserved.
+//  Created by Aaron Whaley on 2/8/17.
+//  Copyright © 2017 Aaron Whaley. All rights reserved.
 //
 
 import UIKit
